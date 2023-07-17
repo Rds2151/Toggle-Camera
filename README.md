@@ -1,2 +1,40 @@
-# Toggle-Camera
-"Camera Toggle Script for Linux"  This script provides a simple and convenient solution for toggling the camera on and off in Linux environments. It replicates a camera toggle functionality that is not commonly available on many laptops, making it a valuable tool for users who desire this feature.
+Toggle-Camera
+This repository contains a camera toggle script for Linux environments. The script provides a simple and convenient solution for toggling the camera on and off. It replicates a camera toggle functionality that is not commonly available on many laptops, making it a valuable tool for users who desire this feature.
+
+Installation
+To install the Toggle Camera script, follow the steps below:
+
+Clone the repository to your local machine:
+
+bash
+Copy code
+git clone https://github.com/your-username/Toggle-Camera.git
+Navigate to the cloned directory:
+
+bash
+Copy code
+cd Toggle-Camera
+Copy the script file to the /etc/ folder:
+
+bash
+Copy code
+sudo cp toggle_camera.sh /etc/
+Usage
+To use the Toggle Camera script, follow the steps below:
+
+Open the keyboard shortcuts settings on your Linux system.
+
+Add a new shortcut and set the functionality to be triggered by the F7 key.
+
+Set the command to execute as:
+
+bash
+Copy code
+sudo sh /etc/toggle_camera.sh
+Save the changes and close the settings.
+
+Now, whenever you press the F7 key, the camera on your Linux system will be toggled on or off.
+
+Contributing
+Contributions to the Toggle-Camera project are welcome. If you find any issues or have any suggestions for improvements, please open an issue or submit a pull request.
+
